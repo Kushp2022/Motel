@@ -1,0 +1,53 @@
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    width: 56vw;
+    margin-left: 22%;
+    margin-top: 3%;
+  
+    
+}
+
+.reslogo {
+    width: 100%;
+    margin: 0;
+    nav-left: 10%;
+    object-fit:contain;
+    cursor: pointer;
+}
+
+.reservation-container{
+    background-color: rgba(200, 194, 194, 0.27);
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    padding:2%;
+    left: 24%;
+    margin-top: 6%;
+    font-size: 1.5vw;
+}
+
+.num{
+    color: white;
+    background-color: black;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#1f4f76;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+a:hover {
+    background-color: #3e739d;
+}
+
+a:active {
+    background-color: #1f4f76;
+}

@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/first.jpeg');
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+.logo{
+    width: 25%;
+    margin-top: 5%;
+    margin-left: 16%;
+    z-index: 2;
+    border-radius: 10%;
+
+}
+
+ .container {
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 5%;
+      right: 5%;
+      height: 0%;
+      font-size: 20px;
+      color: #283048;
+      font-family: "Times New Roman", serif;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.789);
+      cursor: pointer;
+    }
+  
+    .Homedropdown {
+      position: absolute;
+      top: 100.6%;
+      left: 15%;
+      transform: translateX(-50%);
+      min-width: 120px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.789);
+      border: 1px solid rgba(255, 255, 255, 0.789);
+      z-index: 2;
+      display: none;
+      /* Hide the dropdown options by default */
+    }
+    .Roomdropdown {
+      position: absolute;
+      top: 100.6%;
+      left: 31%;
+      transform: translateX(-50%);
+      min-width: 120px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.789);
+      border: 1px solid rgba(255, 255, 255, 0.789);
+      z-index: 2;
+      display: none;
+      /* Hide the dropdown options by default */
+    }
+
+
+
+.newC {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 70vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new{
+    position: relative;
+}
+.bottom-reservation {
+  display: inline-block;
+  background-color: white;
+  background-size: cover;
+  padding: .5% .5%;
+  color: black;
+  text-align: center;
+  border-radius: 10%;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 56%;
+  left: 23.5%;
+  z-index: -1;
+  font-size: 1.1vw;
+}
+
+
+
+.Main {
+    z-index: -1;
+    margin-top: 0%;
+    margin-left: 43%;
+    width: 40%;
+    /* Use 'text-align' instead of 'text-align-last' */
+    font-family: 'Playfair Display', serif;
+    color: black;
+    line-height: 1em;
+
+}
+
+.Main p {
+    line-height: 2;
+    text-align: justify;
+    font-size: 1em;
+    /* Align the paragraphs to justify their content */
+}
+
+.Main h1{ 
+  color: cornflowerblue;
+  font-size: 1.5rem;
+}
+
+.Main .center-this {
+  line-height: 2em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.Main h3 {
+  line-height: 0;
+  color: rgb(53, 53, 53);
+}
+
+.Main ul{
+  line-height: 1cm;
+}
+.locationInf {
+  color: rgb(53, 53, 53);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  margin-top: -15%;
+  left: 46%;
+  font-size: 1.3vw;
+}
+
+@media (max-width: 32em) {
+  .Main {
+      z-index: -1;
+      margin-left: 19%;
+      margin-top: 50%;
+      width: 62%;
+      /* Use 'text-align' instead of 'text-align-last' */
+      font-family: 'Playfair Display', serif;
+      color: black;
+      line-height: 2em;
+    }
+  .locationInf {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    width: 59%;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 16%;
+    margin-left:-25%;
+    font-size: 70%;
+  }
+    .logo {
+      width: 50%;
+      margin-top: 11%;
+      margin-left: 25%;
+      z-index: 2;
+      border-radius: 10%;
+  
+    }
+  .bottom-reservation {
+    display: inline-block;
+    background-color: white;
+    background-size: cover;
+    padding: .5% .5%;
+    color: black;
+    text-align: center;
+    border-radius: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 56%;
+    left: 36.5%;
+    z-index: -1;
+    font-size: 3vw;
+}
+}
+@media (min-width: 32em) and (max-width: 55em) {
+  .Main {
+    z-index: -1;
+    margin-left: 19%;
+    margin-top: 35%;
+    width: 62%;
+    /* Use 'text-align' instead of 'text-align-last' */
+    font-family: 'Playfair Display', serif;
+    color: black;
+    line-height: 2em;
+  }
+
+  .locationInf {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    width: 59%;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: -25%;
+    font-size: 70%;
+  }
+        .logo {
+          width: 35%;
+          margin-top: 6%;
+          margin-left: 33%;
+          z-index: 2;
+          border-radius: 10%;
+    
+        }
+    
+        .bottom-reservation {
+          display: inline-block;
+          background-color: white;
+          background-size: cover;
+          padding: .5% .5%;
+          color: black;
+          text-align: center;
+          border-radius: 10%;
+          font-family: 'Times New Roman', Times, serif;
+          position: absolute;
+          top: 56%;
+          left: 43%;
+          z-index: -1;
+          font-size: 1.8vw;
+        }
+        
+}
+
+
+
+
+
+
+
+
+
+
+
